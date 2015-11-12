@@ -44,7 +44,7 @@ cursor:pointer;
 
 .second-line .box.conhecimentos{
  background-image: url("books.png");
-background-size: 174px;
+background-size: 174px; 
     background-position: center;
 color: black;
 }

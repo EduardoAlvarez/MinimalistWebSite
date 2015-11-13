@@ -1,31 +1,29 @@
 body {
-background: #41C6F3;
-font-family: Verdana , sans-serif;
-padding: 0;
-margin: 0;
-overflow: hidden;
-font-family: 'Josefin Slab', sans-serif;
+    background: #41C6F3;
+    font-family: Verdana , sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Josefin Slab', sans-serif;
 }
 .resumo {
-margin: 0px auto;
-width: 525px;
-/*border-left: 5px solid #FDB225;*/
-border-left: 5px solid white;
-line-height: 1.5;
-margin-top: 100px;
-padding-left: 9px;
-color: #FFFFFF;
-font-size: 21px;
-
+    margin: 0px auto;
+    width: 525px;
+    border-left: 5px solid white;
+    line-height: 1.5;
+    margin-top: 100px;
+    padding-left: 9px;
+    color: #FFFFFF;
+    font-size: 21px;
 }
 .resumo a {
-color: rgb(0, 0, 0);
-text-decoration: none;
-font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
 }
 .second-line {
     font-size: 24px;
- margin: 0px auto;
+    margin: 0px auto;
     width: 550px;
     overflow: hidden;
     text-align: center;
@@ -43,13 +41,13 @@ font-weight: bold;
 }
 
 .second-line .box.conhecimentos{
-    background-image: url("books.png");
+    background-image: url("../img/books.png");
     background-size: 174px;
     background-position: center;
     color: black;
 }
 .second-line .box.experiencias{
-    background-image: url(experiencias2.png);
+    background-image: url("../img/experiencias2.png");
     background-size: 173px;
     color: black;
     background-position-y: 24px;
@@ -59,7 +57,7 @@ font-weight: bold;
 .second-line .box.hobbies {
     background: white;
     color: black;
-    background-image: url('balao1.png');
+    background-image: url('../img/balao1.png');
     background-size: 173px;
     background-position: center;
 }
@@ -68,13 +66,3 @@ font-weight: bold;
     height: 500px;
     margin-top: -5px;
 }
-
-
-/*.second-line .box-border {
-    width: 5px;
-    height: 169px;
-    float: left;
-    background: #FDB225;
-    margin-top: 5px;
-    margin-left: 5px;
-}*/

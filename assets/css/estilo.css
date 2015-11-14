@@ -38,6 +38,12 @@ body {
     margin: 5px;
     padding: 5px;
     cursor:pointer;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+.second-line .box:hover {
+    opacity: 1 !important;
 }
 
 .second-line .box.conhecimentos{
@@ -65,4 +71,8 @@ body {
     background: #FEFEFE;
     height: 500px;
     margin-top: -5px;
+}
+
+object {
+    display: none;
 }

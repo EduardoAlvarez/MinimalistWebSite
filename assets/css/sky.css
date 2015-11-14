@@ -1,0 +1,32 @@
+.sky .categoria {
+	display: none;
+	font-size: 24px;
+	margin: 0px auto;
+	width: 550px;
+	overflow: hidden;
+	text-align: center;
+}
+.sky .col {
+	width: 183px;
+	float: left;
+	padding-top: 16px;
+	text-align: left;
+}
+
+.sky .col .col-title {
+	font-weight: bold;
+	color: #41C6F3;
+}
+.sky .col ul {
+	padding: 0px;
+	margin-top: 5px;
+}
+
+.sky .col li {
+	font-size: 19px;
+	list-style: none;
+	padding: 6px 0px 6px 13px;
+	line-height: 1;
+	color: #F06549;
+	border-left: 5px solid #F6F4DD;
+}

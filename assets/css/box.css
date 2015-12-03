@@ -1,0 +1,46 @@
+.second-line {
+    font-size: 24px;
+    margin: 0px auto;
+    width: 550px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.second-line .box {
+    width: 163px;
+    float: left;
+    height: 163px;
+    background: white;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    cursor:pointer;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.second-line .box:hover {
+    opacity: 1 !important;
+}
+
+.second-line .box.conhecimentos{
+    background-image: url("../img/black_book.png");
+    background-size: 140px;
+    background-position-y: 29px;
+}
+.second-line .box.experiencias{
+    background-image: url("../img/Suitcase_icon.png");
+    background-size: 173px;
+    background-position-y: 12px; 
+}
+.second-line .box.hobbies {
+    background-image: url('../img/icono_acampada.png');
+    background-size: 173px;
+    background-position-y: 11px;
+}
+ 

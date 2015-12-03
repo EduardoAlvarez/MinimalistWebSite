@@ -3,7 +3,7 @@ body {
     padding: 0;
     margin: 0;
     overflow: hidden;
-    font-family: sans-serif;
+    font-family: 'Josefin Slab', sans-serif;
 }
 .resumo {
     margin: 0px auto;
@@ -26,7 +26,8 @@ body {
     width: 550px;
     overflow: hidden;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 20px;
+
 }
 .second-line .box {
     width: 163px;
@@ -41,37 +42,36 @@ body {
     transition-duration: 0.2s;
     transition-timing-function: linear;
 }
+
+
 .second-line .box:hover {
     opacity: 1 !important;
 }
 
 .second-line .box.conhecimentos{
-    background-image: url("../img/books.png");
-    background-size: 174px;
+    background-image: url("../img/black_book.png");
+    background-size: 140px;
+    background-repeat: no-repeat;
     background-position: center;
+    background-position-y: 29px;
     color: black;
 }
 .second-line .box.experiencias{
-    background-image: url("../img/experiencias2.png");
+    background-image: url("../img/Suitcase_icon.png");
     background-size: 173px;
-    color: black;
-    background-position-y: 24px;
     background-repeat: no-repeat;
-    background-color: #F6F4DD;
+    background-position-y: 12px;
+    color: black;
 }
 .second-line .box.hobbies {
     background: white;
-    color: black;
-    background-image: url('../img/balao1.png');
+    background-image: url('../img/icono_acampada.png');
     background-size: 173px;
-    background-position: center;
+    background-position-y: 11px;
+    background-position-x: center;
+    color: black;
 }
-.sky{
-    background: #FEFEFE;
-    height: 500px;
-    margin-top: -5px;
-}
-
+ 
 object {
     display: none;
 }

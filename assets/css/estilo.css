@@ -6,17 +6,30 @@ body {
     font-family: 'Josefin Slab', sans-serif;
 }
 .resumo {
-    margin: 0px auto;
+    position: relative;
     width: 525px;
+    margin: 0px auto;
     border-left: 5px solid black;
-    line-height: 1.5;
     margin-top: 100px;
     padding-left: 9px;
-    color: black;
-    font-size: 21px;
+    height: 200px;
 }
-.resumo a {
-    color: rgb(0, 0, 0);
+
+.resumo .resumo-text   , .resumo .resumo-text  a{
+    color: black;
+    width: 100%;
+
+}
+.resumo .resumo-bg {
+    width: 0;
+    height: 200px;
+    position: absolute;
+    background: black;
+    z-index: 1;
+    left: 0;
+}
+
+.text a {
     text-decoration: none;
     font-weight: bold;
 }
@@ -34,13 +47,15 @@ body {
     float: left;
     height: 163px;
     background: white;
-    color: white;
+    color: black;
     margin: 5px;
     padding: 5px;
     cursor:pointer;
     transition-property: opacity;
     transition-duration: 0.2s;
     transition-timing-function: linear;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -51,27 +66,39 @@ body {
 .second-line .box.conhecimentos{
     background-image: url("../img/black_book.png");
     background-size: 140px;
-    background-repeat: no-repeat;
-    background-position: center;
     background-position-y: 29px;
-    color: black;
 }
 .second-line .box.experiencias{
     background-image: url("../img/Suitcase_icon.png");
     background-size: 173px;
-    background-repeat: no-repeat;
-    background-position-y: 12px;
-    color: black;
+    background-position-y: 12px; 
 }
 .second-line .box.hobbies {
-    background: white;
     background-image: url('../img/icono_acampada.png');
     background-size: 173px;
     background-position-y: 11px;
-    background-position-x: center;
-    color: black;
 }
  
-object {
+/*parte 2*/
+.resumo .resumo-text-2  , .resumo .resumo-text-2  a{
+   color: white;
+   width: 0;
+}
+
+object  , .text-line , .resumo-text-2{
     display: none;
+}
+
+
+.text{
+     line-height: 1.5;
+    position: absolute;
+    font-size: 21px;
+    z-index: 3;
+    
+    padding-top: 8px;
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: nowrap;
+    text-overflow: clip;
 }

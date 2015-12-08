@@ -42,7 +42,7 @@ body {
     line-height: 1.5;
     position: absolute;
     font-size: 21px;
-    z-index: 3;   
+    z-index: 3;
     padding-top: 8px;
     overflow: hidden;
     word-wrap: break-word;
@@ -52,4 +52,28 @@ body {
 
 object  , .text-line , .resumo-text-2{
     display: none;
+}
+
+/*tradução*/
+.translate {
+  position:absolute;
+  top: 0;
+  right: 0;
+}
+
+.translate .btn-trans:first-child {
+    border:none;
+}
+
+.translate .btn-trans {
+  border-left:1px solid black;
+  background: white;
+  float: left;
+  padding: 2px 1px 1px 2px;
+  cursor: pointer;
+}
+
+.translate .btn-trans.selected {
+  background: black;
+  color: white;
 }

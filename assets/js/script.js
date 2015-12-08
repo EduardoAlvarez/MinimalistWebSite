@@ -9,7 +9,10 @@ $( document ).ready(function(){
 	});
 
 	$(document).click(function(e){
-		if( $(e.target).closest('.resumo').length == 0  && $(e.target).closest('.second-line').length == 0 ){
+		if( $(e.target).closest('.resumo').length == 0  &&
+				$(e.target).closest('.second-line').length == 0 &&
+				$(e.target).closest('.translate').length == 0
+			){
 			doAnimation();
 		}
 	});

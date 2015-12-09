@@ -1,5 +1,7 @@
 $( document ).ready(function(){
 
+	$(".resumo-text , resumo-text-2").html( $("#main-content").html());
+
 	var boxes = $(".second-line .box");
 	boxes.click(function(){
 		var _self = $(this);

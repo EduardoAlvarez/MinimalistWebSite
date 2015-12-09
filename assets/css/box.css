@@ -44,3 +44,8 @@
     background-position-y: 11px;
 }
  
+ .second-line .box.projetos {
+	background-image: url('../img/hammer.png');
+	background-size: 111px;
+	background-position-y: 43px;
+}

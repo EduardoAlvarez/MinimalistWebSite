@@ -1,0 +1,33 @@
+.second-line {
+  display: none;
+}
+.mobile-icons {
+  background: black;
+  color: white;
+  display: block;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  top: 0;
+  width: 15%;
+}
+
+.content {
+  width: 80%;
+  height: 480px; /*Corrigir via js depois*/
+  margin-left: 16%;
+}
+
+.content .resumo {
+  margin-top: 20px;
+  width: auto;
+  height: 91%;
+}
+
+.content .text {
+  white-space: normal;
+}
+
+.content .text , .content .resumo-bg {
+  height: 100%;
+}

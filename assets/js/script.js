@@ -1,5 +1,8 @@
 $( document ).ready(function(){
 
+
+	$("body").on('click tap',function(e,data){alert('1')});
+
 	$(".resumo-text , resumo-text-2").html( $("#main-content").html());
 
 	var boxes = $(".second-line .box , .mobile-list .box");

@@ -8,7 +8,5 @@ $( document ).ready(function(){
 	$('.body').click(function(){
 		alert('2');
 	})
-	$('.body').tap(function(){
-		alert('1');
-	})
+ 	$('.body').on({ 'tap' : function(){ alert('1') } });
 });

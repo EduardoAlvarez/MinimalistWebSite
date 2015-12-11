@@ -5,8 +5,8 @@ $( document ).ready(function(){
 		$('.content').css('height' , height+"px")
 	}
 
-	$('.body').click(function(){
+	$('body').click(function(){
 		alert('2');
 	})
- 	$('.body').on({ 'tap' : function(){ alert('1') } });
+ 	$('body').on({ 'tap' : function(){ alert('1') } });
 });

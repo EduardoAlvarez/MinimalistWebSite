@@ -1,7 +1,7 @@
 $( document ).ready(function(){
 
 
-	$("body").on('click tap',function(e,data){alert('1')});
+	$("body").bind('tap',function(e,data){alert('1')});
 
 	$(".resumo-text , resumo-text-2").html( $("#main-content").html());
 

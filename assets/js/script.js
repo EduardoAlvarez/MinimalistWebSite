@@ -2,7 +2,7 @@ $( document ).ready(function(){
 
 	$(".resumo-text , resumo-text-2").html( $("#main-content").html());
 
-	var boxes = $(".second-line .box");
+	var boxes = $(".second-line .box , .mobile-list .box");
 	boxes.click(function(){
 		var _self = $(this);
 		doAnimation(_self);
@@ -13,7 +13,8 @@ $( document ).ready(function(){
 	$(document).click(function(e){
 		if( $(e.target).closest('.resumo').length == 0  &&
 				$(e.target).closest('.second-line').length == 0 &&
-				$(e.target).closest('.translate').length == 0
+				$(e.target).closest('.translate').length == 0 &&
+				$(e.target).closest('.mobile-icons').length == 0
 			){
 			doAnimation();
 		}
@@ -62,8 +63,13 @@ function blackAnimation() {
 	}, 500, function() {
 
 	});
+	var porc = "100%";
+	var mq = window.matchMedia( "(max-width: 800px)" );
+	if(mq.matches){
+		porc = '96%';
+	}
 	$( ".resumo-text-2").animate({
-	    width: "100%",
+	    width: porc,
 	}, 500, function() {
 
 	});

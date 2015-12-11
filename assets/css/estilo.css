@@ -12,6 +12,10 @@ body {
     font-family: 'Josefin Slab', sans-serif;
 }
 
+.mobile-icons {
+    display: none;
+}
+
 .resumo {
     position: relative;
     width: 720px;

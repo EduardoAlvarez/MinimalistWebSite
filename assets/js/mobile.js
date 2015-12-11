@@ -4,4 +4,11 @@ $( document ).ready(function(){
 		var height = window.innerHeight;
 		$('.content').css('height' , height+"px")
 	}
+
+	$('.body').click(function(){
+		alert('2');
+	})
+	$('.body').tap(function(){
+		alert('1');
+	})
 });

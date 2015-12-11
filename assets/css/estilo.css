@@ -5,6 +5,11 @@
   src: local('Josefin Slab'), local('JosefinSlab'), url("../font/josefin.woff2") format('woff2');
 }
 
+html {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     padding: 0;
     margin: 0;

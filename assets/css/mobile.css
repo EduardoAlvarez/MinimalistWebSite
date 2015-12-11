@@ -4,7 +4,7 @@
 
 .content {
   width: 80%;
-  height: 480px; /*Corrigir via js depois*/
+  min-height: 300px; /*Corrigir via js depois*/
   margin-left: 16%;
 }
 

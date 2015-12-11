@@ -3,7 +3,7 @@ $( document ).ready(function(){
 	$(".resumo-text , resumo-text-2").html( $("#main-content").html());
 
 	var boxes = $(".second-line .box , .mobile-list .box");
-	boxes.click(function(){
+	boxes.on('click touchstart', function () {
 		alert('sdasdsad');
 		var _self = $(this);
 		doAnimation(_self);

@@ -1,14 +1,11 @@
 $( document ).ready(function(){
 
 
-	$("body").bind('tap',function(e,data){alert('1')});
-
 	$(".resumo-text , resumo-text-2").html( $("#main-content").html());
 
 	var boxes = $(".second-line .box , .mobile-list .box");
 	boxes.each(function(){
 		$(this).on('click touchstart', function () {
-			alert('sdasdsad');
 			var _self = $(this);
 			doAnimation(_self);
 			boxes.css('opacity' , '0.4');

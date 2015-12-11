@@ -4,6 +4,7 @@ $( document ).ready(function(){
 
 	var boxes = $(".second-line .box , .mobile-list .box");
 	boxes.click(function(){
+		alert('sdasdsad');
 		var _self = $(this);
 		doAnimation(_self);
 		boxes.css('opacity' , '0.4');
